@@ -26,4 +26,4 @@ Retorna um booleano como resultado da autenticação e além disso um determinad
 
 Faça download do collection desta API, para ser utilizado no *software* [Postman](https://www.postman.com/):
 <br>
-[Clique aqui](https://github.com/Niemietz/everis-beca-modularizacao/blob/305964e7959b758842076988937a46cac783093f/everis_beca-modularizacao.postman_collection.json)
+[Clique aqui](https://github.com/Niemietz/everis-beca-modularizacao/blob/21774a1784409bae766ffd9cae9fc57e59f0521c/everis_beca-modularizacao.postman_collection.json)
