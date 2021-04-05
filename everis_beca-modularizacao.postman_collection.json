@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "135abb16-3a81-4040-908c-4c0943bb484d",
+		"name": "Everis Beca - Modularização",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sessionId\": \"123\",\r\n    \"password\": \"KUGTU\"\r\n}"
+				},
+				"url": {
+					"raw": "https://6068931f0add490017340364.mockapi.io/login/authenticate",
+					"protocol": "https",
+					"host": [
+						"6068931f0add490017340364",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"login",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Session",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"deviceId\": \"123\"\r\n}"
+				},
+				"url": {
+					"raw": "https://6068931f0add490017340364.mockapi.io/login/session",
+					"protocol": "https",
+					"host": [
+						"6068931f0add490017340364",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"login",
+						"session"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
