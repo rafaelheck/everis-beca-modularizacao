@@ -4,6 +4,8 @@
 
 Faça a modularização somente da parte de login que se encontra neste projeto, para que a mesma possa ser utilizada em outros projetos.
 
+**Obs.:** Não se esqueça de gerar um arquivo **.aar** do módulo **core**, e implementá-lo no módulo de login que você fará, pois o mesmo faz uso deste módulo.
+
 ## API:
 
 https://6068931f0add490017340364.mockapi.io/login
