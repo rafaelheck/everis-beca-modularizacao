@@ -8,6 +8,8 @@ Faça a modularização somente da parte de login que se encontra neste projeto,
 
 https://6068931f0add490017340364.mockapi.io/login
 
+A API está mockada, ou seja, o resultado sempre será o mesmo, independente de quem faz o request, porém o verbo deve estar de acordo com cada endpoint, conforme descritos a seguir.
+
 ## Endpoints:
 
 ### /session
