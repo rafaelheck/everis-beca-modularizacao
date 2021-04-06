@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':core')
+    implementation files('libs/core-debug.aar')
     implementation files('libs/login-debug.aar')
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.2.0'
