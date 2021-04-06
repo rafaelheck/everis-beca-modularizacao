@@ -9,6 +9,7 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.Group
 import androidx.lifecycle.ViewModelProvider
+import com.example.login.R
 import com.niemietz.everis.beca.core.BackendClient
 import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.login.constants.LoginConstants.EXTRA_ERROR_KEY
 import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.login.constants.LoginConstants.EXTRA_RESULT_KEY
@@ -18,7 +19,6 @@ import com.example.login.events.LoginEvents
 import com.example.login.events.LoginInteractor
 import com.example.login.model.KeyboardItem
 import com.example.login.states.LoginStates
-import com.niemietz.everis.beca.modularizacao.R
 import com.example.login.interfaces.LoginAPI
 import com.example.login.repository.LoginRepository
 import com.example.login.ui.viewmodel.LoginViewModel
